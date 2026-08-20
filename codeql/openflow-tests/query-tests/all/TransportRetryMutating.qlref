@@ -1,0 +1,3 @@
+query: queries/transport/retry-mutating-operation.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

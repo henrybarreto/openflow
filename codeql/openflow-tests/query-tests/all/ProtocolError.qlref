@@ -1,0 +1,3 @@
+query: queries/protocol/missing-protocol-error.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

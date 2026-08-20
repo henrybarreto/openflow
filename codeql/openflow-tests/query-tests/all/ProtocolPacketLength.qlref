@@ -1,0 +1,3 @@
+query: queries/protocol/packet-length-consistency.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

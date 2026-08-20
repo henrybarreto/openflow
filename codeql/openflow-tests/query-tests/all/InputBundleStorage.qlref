@@ -1,0 +1,3 @@
+query: queries/input/unbounded-bundle-storage.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

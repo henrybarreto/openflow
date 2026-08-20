@@ -1,0 +1,3 @@
+query: queries/transport/task-without-cancellation.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

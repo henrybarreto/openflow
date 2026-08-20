@@ -1,0 +1,32 @@
+# cargo-deny policy. The dependency graph is intentionally conservative: only
+# crates.io dependencies and explicitly approved, permissive licenses are
+# accepted. Advisory exceptions require an issue and a justification.
+
+[graph]
+all-features = true
+
+[advisories]
+version = 2
+ignore = []
+yanked = "warn"
+
+[bans]
+multiple-versions = "warn"
+wildcards = "deny"
+highlight = "all"
+
+[licenses]
+version = 2
+confidence-threshold = 0.8
+allow = [
+    "Apache-2.0",
+    "BSD-3-Clause",
+    "ISC",
+    "MIT",
+    "Unicode-3.0",
+]
+
+[sources]
+unknown-registry = "deny"
+unknown-git = "deny"
+allow-registry = ["https://github.com/rust-lang/crates.io-index"]

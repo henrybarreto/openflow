@@ -1,0 +1,3 @@
+query: queries/protocol/copy-field-validation.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

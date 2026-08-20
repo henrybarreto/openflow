@@ -1,0 +1,3 @@
+query: queries/transport/public-plaintext-bind.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

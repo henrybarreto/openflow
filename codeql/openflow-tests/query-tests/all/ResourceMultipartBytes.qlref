@@ -1,0 +1,3 @@
+query: queries/resources/multipart-byte-limit-bypass.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

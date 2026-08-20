@@ -1,0 +1,1 @@
+| src/protocol/oxs.rs:1:1:1:23 | fn parse_stats | Validate alignment padding bytes instead of discarding them. |

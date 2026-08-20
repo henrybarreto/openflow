@@ -1,0 +1,2 @@
+| src/client/mod.rs:43:5:43:22 | wait_for_message(...) | Correlate the reply transaction identifier with the outstanding request. |
+| src/client/mod.rs:44:5:44:37 | read_message_responding_to_echo(...) | Correlate the reply transaction identifier with the outstanding request. |

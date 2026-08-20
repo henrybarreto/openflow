@@ -1,0 +1,1 @@
+| src/client/manager.rs:13:5:13:14 | try_send(...) | Handle channel closure or backpressure instead of discarding the send result. |

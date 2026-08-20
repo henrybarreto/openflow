@@ -1,0 +1,1 @@
+| src/client/manager.rs:6:1:6:24 | fn execute_safe | Restrict automatic retries to operations with an explicit idempotency guarantee. |

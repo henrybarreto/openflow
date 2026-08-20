@@ -1,0 +1,1 @@
+| src/controller/server.rs:12:5:12:10 | bind(...) | Bind plaintext control traffic only to an explicitly protected interface. |

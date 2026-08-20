@@ -1,0 +1,3 @@
+query: queries/protocol/set-field-validation.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

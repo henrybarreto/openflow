@@ -1,0 +1,1 @@
+| src/tls.rs:7:1:11:1 | fn client_config | Reject an empty trust store or require an explicit trust policy. |

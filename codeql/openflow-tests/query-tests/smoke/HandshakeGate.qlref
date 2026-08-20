@@ -1,0 +1,3 @@
+query: queries/protocol/missing-handshake-gate.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

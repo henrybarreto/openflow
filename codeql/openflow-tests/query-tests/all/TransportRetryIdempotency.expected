@@ -1,0 +1,1 @@
+| src/client/manager.rs:6:1:6:24 | fn execute_safe | Verify that the retried operation is read-only or idempotent. |

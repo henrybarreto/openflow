@@ -1,0 +1,3 @@
+query: queries/transport/retry-without-idempotency.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

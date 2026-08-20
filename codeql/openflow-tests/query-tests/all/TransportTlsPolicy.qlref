@@ -1,0 +1,3 @@
+query: queries/transport/weak-tls-policy.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

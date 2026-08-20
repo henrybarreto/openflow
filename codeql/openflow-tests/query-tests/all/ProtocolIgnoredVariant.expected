@@ -1,0 +1,2 @@
+| src/controller/server.rs:48:9:48:33 | _ => ... | Handle unsupported message variants explicitly and return a protocol error when required. |
+| src/protocol/message.rs:20:9:20:15 | _ => ... | Handle unsupported message variants explicitly and return a protocol error when required. |

@@ -1,0 +1,3 @@
+| src/client/mod.rs:27:5:27:9 | new(...) | Use the configured frame-size limit when constructing a network connection. |
+| src/client/mod.rs:31:5:31:9 | new(...) | Use the configured frame-size limit when constructing a network connection. |
+| src/client/mod.rs:35:5:35:9 | new(...) | Use the configured frame-size limit when constructing a network connection. |

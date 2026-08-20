@@ -1,0 +1,1 @@
+| src/controller/server.rs:42:1:44:1 | fn handle_switch | Bound the handshake so an untrusted peer cannot hold the task indefinitely. |

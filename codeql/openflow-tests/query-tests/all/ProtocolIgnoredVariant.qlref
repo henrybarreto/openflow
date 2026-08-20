@@ -1,0 +1,3 @@
+query: queries/protocol/ignored-message-variant.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

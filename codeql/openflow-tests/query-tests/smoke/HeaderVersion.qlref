@@ -1,0 +1,3 @@
+query: queries/protocol/header-version-bypass.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

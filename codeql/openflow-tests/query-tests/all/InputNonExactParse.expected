@@ -1,0 +1,1 @@
+| src/protocol/message.rs:12:1:16:1 | fn decode | Require the parser input and advertised frame length to agree exactly. |

@@ -1,0 +1,2 @@
+| src/protocol/message.rs:14:5:14:25 | encode_experimenter(...) | Validate experimenter header length and apply a payload policy. |
+| src/protocol/message.rs:15:5:15:24 | parse_experimenter(...) | Validate experimenter header length and apply a payload policy. |

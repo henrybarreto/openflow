@@ -1,0 +1,3 @@
+query: queries/resources/connection-limit-bypass.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

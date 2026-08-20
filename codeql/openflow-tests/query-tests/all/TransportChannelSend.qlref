@@ -1,0 +1,3 @@
+query: queries/transport/unhandled-channel-send.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

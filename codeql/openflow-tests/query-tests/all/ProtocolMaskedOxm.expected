@@ -1,0 +1,1 @@
+| src/protocol/oxm.rs:4:5:4:18 | masked_field(...) | Validate masked OXM width and field maskability before encoding or accepting it. |

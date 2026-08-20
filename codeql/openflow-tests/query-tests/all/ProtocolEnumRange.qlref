@@ -1,0 +1,3 @@
+query: queries/protocol/enum-range-validation.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

@@ -1,0 +1,15 @@
+.codex
+/target
+
+# CodeQL generated artifacts
+.codeql/
+codeql/**/codeql-pack.lock.yml
+codeql/**/query-tests/**/*.actual
+codeql/**/query-tests/**/codeql-database.yml
+codeql/**/query-tests/**/*.testproj/
+codeql/**/query-tests/**/target/
+codeql/**/query-tests/**/Cargo.lock
+
+# cargo-fuzz generated build products and crash artifacts
+fuzz/target/
+fuzz/artifacts/

@@ -1,0 +1,3 @@
+query: queries/protocol/request-reply-mismatch.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

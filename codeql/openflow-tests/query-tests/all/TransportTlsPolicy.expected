@@ -1,0 +1,1 @@
+| src/tls.rs:10:5:10:28 | with_protocol_versions(...) | Review the TLS protocol-version policy against the deployment baseline. |

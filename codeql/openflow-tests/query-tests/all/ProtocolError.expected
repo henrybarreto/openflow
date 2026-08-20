@@ -1,0 +1,2 @@
+| src/controller/server.rs:46:1:50:1 | fn handle_message | Return a protocol error for invalid or unsupported messages. |
+| src/protocol/message.rs:18:1:22:1 | fn handle_message | Return a protocol error for invalid or unsupported messages. |

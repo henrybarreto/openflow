@@ -1,0 +1,1 @@
+| src/protocol/header.rs:1:1:1:17 | fn parse | Keep version negotiation limited to Hello and validate versions for other messages. |

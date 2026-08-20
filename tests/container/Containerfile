@@ -1,0 +1,26 @@
+# Image used by tests/ovs_integration.rs to run real Open vSwitch integration
+# tests via testcontainers-rs.
+#
+# OVS runs its bridge in userspace mode (datapath_type=netdev), so the
+# container does not need the `openvswitch` kernel module loaded on the
+# host and does not need `--privileged` for the datapath itself. The
+# container is still expected to run with NET_ADMIN (and, in CI, is easiest
+# to just run privileged + `--network=host`) because tests create veth pairs
+# and manipulate links/addresses to generate real traffic for the switch to
+# forward and trigger real PACKET_IN messages.
+FROM debian:bookworm-slim
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    openvswitch-switch \
+    openvswitch-common \
+    iproute2 \
+    iputils-ping \
+    iputils-arping \
+    net-tools \
+    ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY entrypoint.sh /usr/local/bin/entrypoint.sh
+RUN chmod +x /usr/local/bin/entrypoint.sh
+
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]

@@ -1,0 +1,98 @@
+[package]
+name = "openflow"
+version = "1.0.0"
+edition = "2021"
+description = "OpenFlow 1.5.1 controller library with typed wire-format encode/decode"
+license = "MIT"
+repository = "https://github.com/henrybarreto/openflow"
+keywords = ["openflow", "sdn", "networking", "controller", "protocol"]
+categories = ["network-programming"]
+
+[features]
+default = []
+tls = ["dep:rustls", "dep:tokio-rustls"]
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+clap = { version = "4", features = ["derive"] }
+rustls = { version = "0.23", default-features = false, features = ["ring", "std", "tls12"], optional = true }
+tokio-rustls = { version = "0.26", optional = true }
+
+[lints.rust]
+warnings = "deny"
+missing_docs = "deny"
+unsafe_code = "deny"
+
+[lints.clippy]
+all = { level = "deny", priority = -1 }
+pedantic = { level = "deny", priority = -1 }
+nursery = { level = "deny", priority = -1 }
+
+unwrap_used = "deny"
+expect_used = "deny"
+panic = "deny"
+indexing_slicing = "deny"
+must_use_candidate = "allow"
+return_self_not_must_use = "deny"
+inefficient_to_string = "deny"
+redundant_clone = "deny"
+match_same_arms = "deny"
+if_same_then_else = "deny"
+branches_sharing_code = "deny"
+clone_on_copy = "deny"
+implicit_clone = "deny"
+large_types_passed_by_value = "deny"
+too_many_arguments = "deny"
+too_many_lines = "deny"
+cognitive_complexity = "deny"
+type_complexity = "deny"
+float_cmp = "deny"
+unnecessary_wraps = "deny"
+explicit_into_iter_loop = "deny"
+explicit_iter_loop = "deny"
+filter_map_next = "deny"
+flat_map_option = "deny"
+module_name_repetitions = "deny"
+missing_const_for_fn = "deny"
+missing_errors_doc = "deny"
+missing_panics_doc = "deny"
+cast_possible_truncation = "deny"
+cast_sign_loss = "deny"
+cast_precision_loss = "deny"
+dbg_macro = "deny"
+unimplemented = "deny"
+print_stdout = "deny"
+print_stderr = "deny"
+unused_async = "deny"
+useless_format = "deny"
+semicolon_if_nothing_returned = "deny"
+map_unwrap_or = "deny"
+manual_assert = "deny"
+manual_ok_or = "deny"
+manual_string_new = "deny"
+wildcard_dependencies = "deny"
+get_first = "deny"
+needless_borrow = "deny"
+needless_pass_by_value = "deny"
+match_like_matches_macro = "deny"
+manual_let_else = "deny"
+collapsible_if = "deny"
+collapsible_match = "deny"
+for_kv_map = "deny"
+needless_return = "deny"
+unnecessary_map_or = "deny"
+format_in_format_args = "deny"
+to_string_in_format_args = "deny"
+redundant_field_names = "deny"
+needless_update = "deny"
+manual_range_contains = "deny"
+manual_repeat_n = "deny"
+useless_vec = "deny"
+iter_cloned_collect = "deny"
+map_entry = "deny"
+
+[dev-dependencies]
+testcontainers = "0.28.0"
+rcgen = "0.14"

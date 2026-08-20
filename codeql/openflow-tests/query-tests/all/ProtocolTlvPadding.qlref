@@ -1,0 +1,3 @@
+query: queries/protocol/tlv-padding-not-validated.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

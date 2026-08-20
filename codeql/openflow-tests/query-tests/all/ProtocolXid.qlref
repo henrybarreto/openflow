@@ -1,0 +1,3 @@
+query: queries/protocol/xid-not-correlated.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

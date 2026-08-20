@@ -1,0 +1,1 @@
+| src/controller/server.rs:11:1:13:1 | fn run | Require an explicit deployment decision before accepting plaintext control traffic. |

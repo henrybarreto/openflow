@@ -1,0 +1,3 @@
+query: queries/protocol/bundle-state-machine.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

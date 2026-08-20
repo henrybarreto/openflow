@@ -1,0 +1,1 @@
+| src/controller/server.rs:43:5:43:18 | input.unwrap() | Return a protocol error instead of panicking on network-derived data. |

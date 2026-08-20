@@ -1,0 +1,3 @@
+query: queries/protocol/encoder-length-mismatch.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

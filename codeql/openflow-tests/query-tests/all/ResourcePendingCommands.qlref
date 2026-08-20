@@ -1,0 +1,3 @@
+query: queries/resources/pending-command-limit-bypass.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

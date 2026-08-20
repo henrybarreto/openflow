@@ -1,0 +1,3 @@
+query: queries/resources/mac-table-limit-bypass.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

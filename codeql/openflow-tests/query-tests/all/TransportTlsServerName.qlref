@@ -1,0 +1,3 @@
+query: queries/transport/tls-server-name-bypass.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

@@ -1,0 +1,3 @@
+query: queries/input/missing-read-timeout.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

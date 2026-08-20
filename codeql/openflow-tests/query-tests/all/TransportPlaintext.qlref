@@ -1,0 +1,3 @@
+query: queries/transport/plaintext-controller.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

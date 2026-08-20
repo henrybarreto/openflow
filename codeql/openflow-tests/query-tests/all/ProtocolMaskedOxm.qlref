@@ -1,0 +1,3 @@
+query: queries/protocol/masked-oxm-shape.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

@@ -1,0 +1,10 @@
+---
+name: openflow/openflow-queries
+version: 0.1.0
+library: false
+extractor: rust
+dependencies:
+  codeql/rust-all: 0.2.20
+suites: suites
+defaultSuiteFile: suites/openflow-security.qls
+warnOnImplicitThis: true

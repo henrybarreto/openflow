@@ -1,0 +1,7 @@
+# RustSec policy for `cargo audit`.
+# Keep the deny list empty: every advisory must be triaged and either fixed or
+# added here with a written justification before a release.
+[advisories]
+ignore = []
+informational_warnings = ["unmaintained"]
+severity_threshold = "low"

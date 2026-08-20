@@ -1,0 +1,1 @@
+| src/protocol/message.rs:4:5:4:11 | parse(...) | Validate nested message type, length, version, and trailing bytes before accepting it. |

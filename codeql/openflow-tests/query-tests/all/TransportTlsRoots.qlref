@@ -1,0 +1,3 @@
+query: queries/transport/tls-empty-trust-store.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

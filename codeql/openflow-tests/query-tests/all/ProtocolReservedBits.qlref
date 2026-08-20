@@ -1,0 +1,3 @@
+query: queries/protocol/reserved-bit-accepted.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

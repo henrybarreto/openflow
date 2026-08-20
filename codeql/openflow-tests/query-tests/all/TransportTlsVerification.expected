@@ -1,0 +1,1 @@
+| src/tls.rs:9:5:9:15 | dangerous(...) | Do not bypass certificate and hostname verification for the OpenFlow peer. |

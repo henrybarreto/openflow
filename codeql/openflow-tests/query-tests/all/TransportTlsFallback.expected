@@ -1,0 +1,1 @@
+| src/tls.rs:19:1:21:1 | fn connect_tcp | Fail the connection when TLS setup fails; do not fall back to plaintext. |

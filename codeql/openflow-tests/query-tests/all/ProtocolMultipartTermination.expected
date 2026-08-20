@@ -1,0 +1,1 @@
+| src/client/mod.rs:14:1:20:1 | fn collect_multipart_reply | Use the multipart MORE flag as the only termination condition. |

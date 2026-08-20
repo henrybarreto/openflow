@@ -1,0 +1,1 @@
+| src/protocol/message.rs:12:1:16:1 | fn decode | Check packet and frame lengths before slicing payload data. |

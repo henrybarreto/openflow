@@ -1,0 +1,3 @@
+query: queries/protocol/experimenter-payload-validation.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

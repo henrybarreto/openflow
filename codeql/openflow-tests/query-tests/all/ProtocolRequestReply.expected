@@ -1,0 +1,1 @@
+| src/client/mod.rs:43:5:43:22 | wait_for_message(...) | Match the expected reply variant and reject unrelated messages. |

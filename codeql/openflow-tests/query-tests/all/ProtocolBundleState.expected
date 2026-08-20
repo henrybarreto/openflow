@@ -1,0 +1,2 @@
+| src/controller/server.rs:29:1:32:1 | fn handle_bundle_add_message | Check bundle existence and state before applying this bundle operation. |
+| src/controller/server.rs:34:1:36:1 | fn handle_bundle_open | Check bundle existence and state before applying this bundle operation. |

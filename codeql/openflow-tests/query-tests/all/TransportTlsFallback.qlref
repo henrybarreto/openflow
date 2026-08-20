@@ -1,0 +1,3 @@
+query: queries/transport/tls-plaintext-fallback.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

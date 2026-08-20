@@ -1,0 +1,3 @@
+query: queries/input/echo-amplification.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

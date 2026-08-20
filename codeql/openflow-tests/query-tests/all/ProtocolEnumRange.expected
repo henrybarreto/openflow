@@ -1,0 +1,1 @@
+| src/protocol/action.rs:7:1:9:1 | fn parse_action | Validate numeric message, action, and property enums before dispatch. |

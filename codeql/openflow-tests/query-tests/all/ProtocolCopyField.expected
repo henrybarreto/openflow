@@ -1,0 +1,1 @@
+| src/protocol/action.rs:5:1:5:28 | fn parse_copy_field | Validate COPY_FIELD identifiers, offsets, widths, and reserved bytes. |

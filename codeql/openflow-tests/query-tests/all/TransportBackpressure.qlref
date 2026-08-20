@@ -1,0 +1,3 @@
+query: queries/transport/backpressure-bypass.ql
+postprocess:
+ - utils/test/InlineExpectationsTestQuery.ql

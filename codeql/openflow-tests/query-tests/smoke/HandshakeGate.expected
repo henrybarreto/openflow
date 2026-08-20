@@ -1,0 +1,1 @@
+| src/protocol/message.rs:1:1:1:26 | fn handle_message | Gate stateful message handling on a completed handshake. |
